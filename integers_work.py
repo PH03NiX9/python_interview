@@ -24,4 +24,7 @@ def median(numbers):
         return (sorted_numbers[middle - 1] + sorted_numbers[middle]) / 2
     else:
         return sorted_numbers[middle]
-# The function first sorts the list of numbers in ascending order. It then calculates the length of the list and finds the middle index of the list. If the length of the list is even, it returns the average of the two middle values. If the length of the list is odd, it returns the middle value.
+# The function first sorts the list of numbers in ascending order.
+# It then calculates the length of the list and finds the middle index of the list.
+# If the length of the list is even, it returns the average of the two middle values.
+# If the length of the list is odd, it returns the middle value.
