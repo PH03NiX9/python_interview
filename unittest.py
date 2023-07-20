@@ -20,7 +20,7 @@ class TestFactorial(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-# Write a unittest test case to check that a function that converts a Celsius temperature to a Fahrenheit temperature returns the correct value.
+# Write a unittest test case to check that a function that converts a Celsius to Fahrenheit returns the correct value.
 def celsius_to_fahrenheit(celsius):
     return (celsius * 1.8) + 32
 
